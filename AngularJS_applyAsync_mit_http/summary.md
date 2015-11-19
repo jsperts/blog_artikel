@@ -1,1 +1,1 @@
-Es kann zu Performance-Probleme führen, wenn AngularJS in einem begrenzen Zeitraum auf mehreren _$http_-Antworten reagieren muss. In diesem Blog-Artikel werden wir sehen wie wir diese Problem vermeiden können.
+Es kann zu einer Senkung der Performance führen, wenn AngularJS in einem begrenzen Zeitraum auf mehrere _$http_-Antworten reagieren muss. In diesem Blog-Artikel werden wir sehen, wie wir dieses Problem vermeiden können.
