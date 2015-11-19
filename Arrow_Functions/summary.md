@@ -1,0 +1,1 @@
+Um einen _this-Wert_ für Callback-Funktionen zu definieren, müssen wir mit __bind()__ oder mit einer weiteren Variable arbeiten. Das ist nicht mehr der Fall, wenn man mit _Arrow-Funktionen_ arbeitet, da die den _this-Wert_ lexikalisch binden.

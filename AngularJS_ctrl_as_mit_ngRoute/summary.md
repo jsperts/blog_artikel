@@ -1,0 +1,1 @@
+Die _ControllerAs_-Schreibweise in Kombination mit __ng-controller__ ist wahrscheinlich vielen schon bekannt. In diesem Artikel zeigen wir, wie man _ControllerAs_ in Kombination mit einer Route-Definition nutzen kann.

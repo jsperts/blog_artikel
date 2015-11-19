@@ -1,0 +1,1 @@
+Die _ControllerAs_-Schreibweise gibt es zwar schon länger (seit AngularJS 1.2.0), hat sich aber in den letzten Monaten zu einer Best practice entwickelt. In diesem Artikel werden wir uns diese Schreibweise ansehen und über ein paar Vor- und Nachteile reden.

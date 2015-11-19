@@ -1,0 +1,1 @@
+AngularJS erlaubt es uns, Controller für unsere Direktiven zu definieren. Aber was ist, wenn wir Controller von anderen Direktiven in unserer nutzen möchten? Dafür gibt es die __require__-Eigenschaft der Direktive.

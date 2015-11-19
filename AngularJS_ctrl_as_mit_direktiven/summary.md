@@ -1,0 +1,1 @@
+Seit Angular 1.3 ist es einfach, Direktiven als Komponenten (View + Controller) zu schreiben, mit Hilfe von __controller__, __controllerAs__ und __bindToController__. In diesem Artikel können Sie sehen, wie das geht.
