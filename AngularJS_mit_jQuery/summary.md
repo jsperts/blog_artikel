@@ -1,0 +1,1 @@
+Es ist einfach, Angular mit jQuery zu nutzen, aber was passiert, wenn wir statt jQuery eine jQuery-ähnliche Bibliothek nutzen möchten? Mit Hilfe der __ng-jq__-Direktive, die es seit Angular Version 1.4 gibt, ist das sehr bequem geworden.
