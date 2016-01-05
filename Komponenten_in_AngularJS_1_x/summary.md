@@ -1,0 +1,1 @@
+Im Artikel wird kurz gezeigt wie man in AngularJS 1.x Direktiven als Komponenten definieren können und gleichzeitig wird die nutzen der neuer _component_-Methode gezeigt die es in AngularJS 1.5 geben wird.
