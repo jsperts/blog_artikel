@@ -1,0 +1,1 @@
+Im Artikel werden Möglichkeiten gezeigt wie man in Angular 2 die Auswirkung von CSS-Styles beschränken kann, indem man die drei View-Kapselungs Möglichkeiten von Angular 2 verwendet. Anhand von Code-Beispielen werden die drei Möglichkeiten gezeigt und erklärt.
