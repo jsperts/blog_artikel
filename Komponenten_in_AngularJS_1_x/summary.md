@@ -1,1 +1,1 @@
-Im Artikel wird kurz gezeigt, wie man in AngularJS 1.x Direktiven als Komponenten definieren kann, und gleichzeitig wird die Nutzung der neuen _component_-Methode illustriert, die es in AngularJS 1.5 geben wird.
+Im Artikel wird kurz gezeigt, wie man in AngularJS 1.x Direktiven als Komponenten definieren kann, und gleichzeitig wird die Nutzung der neuen _component_-Methode illustriert, die es seit AngularJS 1.5 gibt.
