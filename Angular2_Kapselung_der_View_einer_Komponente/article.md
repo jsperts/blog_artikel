@@ -1,3 +1,5 @@
+__Update__: 05.02.2016 - Manche Formulierungen wurden korrigiert. Dank an Pascal Precht für sein Feedback.
+
 __Warnung__: Angular 2 befindet sich noch im Beta-Stadium. Es ist möglich, dass manches, das hier beschrieben ist, in der Zukunft nicht oder anders funktioniert.
 In dem Artikel wird die Version 2.0.0-beta.1 verwendet.
 
@@ -133,7 +135,7 @@ Erklärung:
 
 Genau wie im Beispiel ohne Kapselung wurden unsere CSS-Styles in das head-Element geschrieben.
 Nur wird diesmal dem CSS-Selektor noch ein Attribut hinzugefügt.
-Wenn wir das DOM genauer betrachten, werden wir sehen, dass das div in dem my-app-Tag genau dieses Attribut auch besitzt.
+Wenn wir das DOM genauer betrachten, werden wir sehen, dass das _div_ in dem my-app-Tag genau dieses Attribut auch besitzt.
 Mit Hilfe von HTML-Attributen kann Angular den Anwendungsbereich eines CSS-Styles beschränken.
 In diesem Fall wird der Anwendungsbereich der box-Klasse auf Elemente mit dem \_ngcontent-khh-1-Attribut beschränkt.
 Angular ist klug genug, dieses konkrete Attribut nur an Elemente unserer my-app-Komponente zu vergeben.
@@ -141,9 +143,8 @@ Weitere Komponenten bekommen andere Attribute.
 
 Der/die eine oder andere Leser/Leserin mag sich jetzt fragen, was das \_nghost-khh-1-Attribut zu bedeuten hat und warum wir diese Art der Kapselung als "emuliert" bezeichnen.
 Emuliert bezieht sich auf die echte Kapselung, die man durch das Shadow DOM erreichen kann.
-Wenn wir das Shadow DOM benutzen, wird eine Komponente in zwei Teile aufgespalten.
-In ein Host-Element, das ist der Tag, den wir in der Komponente als Selektor nutzen (hier "my-app"), und den Content.
-Der Content ist der Inhalt der template-Eigenschaft einer Komponente.
+Wenn wir das Shadow DOM benutzen, wird ein __shadow root__ erzeugt und dadurch wird unser Tag (hier "my-app") zu einem sogenannten Host-Element.
+Der Inhalt der template-Eigenschaft wird zum Inhalt des Shadow DOMs.
 Da "my-app" ein Host-Element ist, hat es die Bezeichnung "\_nghost" im Namen des Attributs.
 Die drei Zeichen nach dem Minus definieren einen internen Namen für unsere Komponente, und die Zahl signalisiert die Tiefe, in der sich eine Komponente befindet.
 Hätten wir z. B. noch eine weitere Komponente innerhalb der my-app-Komponente, hätte diese die Zahl 2.
@@ -208,9 +209,6 @@ Erklärung:
 
 Dieses Mal wurden die CSS-Styles der Komponente nicht in das head-Element geschrieben, sondern als Teil des Content in die shadow-root.
 Das HTML-Template der template-Eigenschaft und die CSS-Styles der Komponente, bilden den Content für das Shadow DOM.
-Bei der emulierten Kapselung wurde erwähnt, dass das Shadow DOM unsere Komponente in zwei teilt.
-Genauer gesagt wird die Komponente in drei geteilt:
-Es gibt einmal das Host-Element, hier "my-app", die shadow root (#shadow-root), die als root-Element für den Content fungiert.
 Alles, was sich in der shadow root befindet, ist vom restlichen DOM-Bau getrennt.
 
 Mit Shadow DOM, können wir die größtmögliche Kapselung erreichen, allerdings nur wenn der Browser Shadow DOM auch unterstützt.
