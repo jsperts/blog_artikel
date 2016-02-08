@@ -105,4 +105,4 @@ Nicht erlaubt:
 
 Wenn man eine Komponente als Attribut nutzen möchte, muss man diese mit Hilfe der directive-Methode eines Modules definieren.
 
-Weitere Informationen zu der _component_-Methode gibt es in der offiziellen Dokumentation von Angular: [https://code.angularjs.org/1.5.0-rc.0/docs/api/ng/type/angular.Module#component](https://code.angularjs.org/1.5.0-rc.0/docs/api/ng/type/angular.Module#component).
+Weitere Informationen zu der _component_-Methode gibt es in der offiziellen Dokumentation von Angular: [https://code.angularjs.org/1.5.0/docs/api/ng/type/angular.Module#component](https://code.angularjs.org/1.5.0/docs/api/ng/type/angular.Module#component).
