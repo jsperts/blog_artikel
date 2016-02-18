@@ -1,0 +1,1 @@
+Wir haben in einem früheren Blogartikel gesehen wie wir in Angular 1.5.x Komponenten definieren können. Aber wie können verschachtelte Komponenten Daten austauschen? Dieser Artikel gibt eine mögliche Antwort auf diese Frage.
