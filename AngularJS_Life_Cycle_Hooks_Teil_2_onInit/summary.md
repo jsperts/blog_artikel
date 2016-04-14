@@ -1,0 +1,1 @@
+In dem zweiten Blogartikel über "life cycle hooks" reden wir über den $onInit-Hook. Dieser existiert seit der 1.5.0 Version von Angular und kann benutzt werden, um Initialisierungscode für eine Komponente auszuführen.
