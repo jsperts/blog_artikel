@@ -1,0 +1,1 @@
+Dieser Artikel ist der erster Teil in eine Serie von Blogartikeln über Angular 1.5.x "life cycle hooks". Wir sehen hier was "life cycle hooks" sind welche konkrete Hooks uns zur Verfügung stehen und wann diese aufgerufen werden. Detaillierte Informationen über die einzelne Hooks wird es in weitere Blogartikeln geben.
