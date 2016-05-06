@@ -2,7 +2,7 @@
 Dieser Artikel ist der erster Teil in einer Serie von 5 kleinen Blogartikeln über "life cycle hooks" in Angular 1.5.x.
 
 * [Angular life cycle Hooks. Teil 1: Einführung](https://jsperts.de/blog/angularjs_life_cycle_hooks_teil_1_einfuehrung)
-* Angular life cycle Hooks. Teil 2: $onInit - Wird demnächst hochgeladen
+* [Angular life cycle Hooks. Teil 2: $onInit](https://jsperts.de/blog/angularjs_life_cycle_hooks_teil_2_oninit/)
 * Angular life cycle Hooks. Teil 3: $postLink - Wird demnächst hochgeladen
 * Angular life cycle Hooks. Teil 4: $onChanges - Wird demnächst hochgeladen
 * Angular life cycle Hooks. Teil 5: $onDestroy - Wird demnächst hochgeladen
