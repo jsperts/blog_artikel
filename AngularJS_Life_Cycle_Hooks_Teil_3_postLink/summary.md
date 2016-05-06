@@ -1,0 +1,1 @@
+In diesem Artikel werden wir uns mit einem weiteren "life cycle hook" beschäftigen und zwar mit dem $postLink-Hook. Dieser existiert erst seit der Version 1.5.3 von Angular und kann benutzt werden, um das DOM einer Komponente zu manipulieren.
