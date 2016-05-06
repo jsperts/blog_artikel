@@ -10,7 +10,7 @@ Dieser Artikel ist der zweiter Teil in einer Serie von 5 kleinen Blogartikeln ü
 
 ### $onInit
 
-Wie schon im ersten Teil der Serie erwähnt ist der $onInit-Hook der erster Hook der aufgerufen wird.
+Wie schon im ersten Teil der Serie erwähnt, ist der $onInit-Hook der erster Hook der aufgerufen wird.
 Dadurch ist dieser der idealer Ort, um initialisierungs Code für die Komponente auszuführen.
 Wir können z. B. Standartwerte für das Modell definieren oder Serveranfragen starten, um Daten zu holen. Hier ein kleines Beispiel:
 
@@ -67,7 +67,7 @@ angular.module('app', [])
 
 In diesem Beispiel bekommt die Child-Komponente eine Zahl, die mit zwei multipliziert wird bevor diese angezeigt wird.
 Die Zahl wird in der Konstruktorfunktion der Parent-Komponente definiert und mittels [ein-Weg-Datenbindung](https://jsperts.de/blog/angularjs-ein-weg-datenbindung-komponenten/) der Child-Komponente übergeben.
-Da wir mit einer Bindung arbeiten können wir die Multiplikation nicht in der Konstruktorfunktion der Child-Komponente durchführen.
+Da wir mit einer Bindung arbeiten, können wir die Multiplikation nicht in der Konstruktorfunktion der Child-Komponente durchführen.
 Die num-Eigenschaft ist dort noch nicht definiert.
 Wir müssen dafür den $onInit-Hook nutzen.
 Allerdings hätten wir in diesem trivialen Beispiel die Multiplikation auch im Template definieren können.
