@@ -1,16 +1,18 @@
 <aside style="border: 1px dotted #f37726; padding: 4px; margin-bottom: 20px;">
-Dieser Artikel ist der zweiter Teil in einer Serie von 5 kleinen Blogartikeln über "life cycle hooks" in Angular 1.5.x.
+Dieser Artikel ist der zweiter Teil in einer Serie von 5 kleinen Blogartikel über "life cycle hooks" in Angular 1.5.x.
 
 * [Angular life cycle Hooks. Teil 1: Einführung](https://jsperts.de/blog/angularjs_life_cycle_hooks_teil_1_einfuehrung)
 * [Angular life cycle Hooks. Teil 2: $onInit](https://jsperts.de/blog/angularjs_life_cycle_hooks_teil_2_oninit)
-* Angular life cycle Hooks. Teil 3: $postLink - Wird demnächst hochgeladen
+* [Angular life cycle Hooks. Teil 3: $postLink](https://jsperts.de/blog/angularjs_life_cycle_hooks_teil_3_postlink/)
 * Angular life cycle Hooks. Teil 4: $onChanges - Wird demnächst hochgeladen
 * Angular life cycle Hooks. Teil 5: $onDestroy - Wird demnächst hochgeladen
 </aside>
 
+__Update__: 25.05.2016 - Das Verhalten des $onChanges-Hooks hat sich mit der 1.5.5 Version geändert.
 ### $onInit
 
 Wie schon im ersten Teil der Serie erwähnt, ist der $onInit-Hook der erster Hook der aufgerufen wird.
+Seit Angular 1.5.5 ist der $onChanges-Hook der erste Hook der aufgerufen wird.
 Dadurch ist dieser der idealer Ort, um initialisierungs Code für die Komponente auszuführen.
 Wir können z. B. Standartwerte für das Modell definieren oder Serveranfragen starten, um Daten zu holen. Hier ein kleines Beispiel:
 
@@ -78,5 +80,6 @@ Wenn wir also bei der Initialisierung mit so einem Controller interagieren möch
 ### Fazit
 
 Der $onInit-Hook ist der erster Hook der von Angular aufgerufen wird.
+Seit 1.5.5 ist $onInit der zweite Hook der aufgerufen wird.
 Dieser ist hilfreich, wenn wir bei der Initialisierung einer Komponente mit externe Controllers oder mit Bindings interagieren müssen.
 

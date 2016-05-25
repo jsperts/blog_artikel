@@ -1,5 +1,5 @@
 <aside style="border: 1px dotted #f37726; padding: 4px; margin-bottom: 20px;">
-Dieser Artikel ist der dritte Teil in einer Serie von 5 kleinen Blogartikeln über "life cycle hooks" in Angular 1.5.x.
+Dieser Artikel ist der dritte Teil in einer Serie von 5 kleinen Blogartikel über "life cycle hooks" in Angular 1.5.x.
 
 * [Angular life cycle Hooks. Teil 1: Einführung](https://jsperts.de/blog/angularjs_life_cycle_hooks_teil_1_einfuehrung)
 * [Angular life cycle Hooks. Teil 2: $onInit](https://jsperts.de/blog/angularjs_life_cycle_hooks_teil_2_oninit)
