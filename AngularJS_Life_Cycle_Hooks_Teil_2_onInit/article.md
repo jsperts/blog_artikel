@@ -5,7 +5,7 @@ Dieser Artikel ist der zweiter Teil in einer Serie von 5 kleinen Blogartikel üb
 * [Angular life cycle Hooks. Teil 2: $onInit](https://jsperts.de/blog/angularjs_life_cycle_hooks_teil_2_oninit)
 * [Angular life cycle Hooks. Teil 3: $postLink](https://jsperts.de/blog/angularjs_life_cycle_hooks_teil_3_postlink/)
 * [Angular life cycle Hooks. Teil 4: $onChanges](https://jsperts.de/blog/angularjs_life_cycle_hooks_teil_4_onchanges)
-* Angular life cycle Hooks. Teil 5: $onDestroy - Wird demnächst hochgeladen
+* [Angular life cycle Hooks. Teil 5: $onDestroy](https://jsperts.de/blog/angularjs_life_cycle_hooks_teil_5_ondestroy)
 </aside>
 
 __Update__: 25.05.2016 - Das Verhalten des $onChanges-Hooks hat sich mit der 1.5.5 Version geändert.
