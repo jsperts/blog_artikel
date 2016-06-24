@@ -1,4 +1,3 @@
-
 <aside style="border: 1px dotted #f37726; padding: 4px; margin-bottom: 20px;">
 Dieser Artikel ist der letzte Teil in einer Serie von 5 kleinen Blogartikel über "life cycle hooks" in Angular 1.5.x.
 
